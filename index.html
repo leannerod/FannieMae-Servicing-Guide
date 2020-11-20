@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicing Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+    <div class="main-container">
+        <h1>FannieMae Servicing Guide</h1>
+        <!-- Main Categories -->
+        <div class="property-preservation">
+            <div class="preservation-type-container boarding" id="boarding">
+                <h2>Boarding</h2>
+            </div>
+            <div class="preservation-type-container hazards" id="hazards">
+                <h2>Hazards</h2>
+            </div>
+            <div class="preservation-type-container lawn" id="lawn">
+                <h2>Lawn Maintenance</h2>
+            </div>
+            <div class="preservation-type-container lock" id="lock">
+                <h2>Lock Changes and Securing</h2>
+            </div>
+            <div class="preservation-type-container roof" id="roof">
+                <h2>Roof Repair</h2>
+            </div>
+            <div class="preservation-type-container pool" id="pool">
+                <h2>Swimming Pool</h2>
+            </div>
+            <div class="preservation-type-container winter" id="winter">
+                <h2>Winterization</h2>
+            </div>
+            <div class="preservation-type-container other" id="other">
+                <h2>Other</h2>
+            </div>
+        </div>
+        <!-- Boarding content -->
+        <div class="content-container" id="boarding-content-container">
+            <div class="preservation-content">
+                <span class="close" id="close">&times;</span>
+                <div class="options">
+                    <div class="wrapper">
+                        <ul class="menu-bar first-list">
+                            <li>Properties should not be boarded unless it is necessary to prevent vandalism, where required by local ordinance, or when windows are broken. The allowable for any security door and/or crawl space will include the cost of boarding and padlock(s).</li>
+                            <li id="window-selection"><a href="#">
+                                Windows <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="slider-door-selection"><a href="#">
+                                Slider Door <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="security-door-selection"><a href="#">
+                                Security Door <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="crawl-space-selection"><a href="#">
+                                Craw Space <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- Window choices -->
+                        <ul class="menu-bar second-list" id="window-choices">
+                            <li>Window Pricing
+                                <p>United Inches (UI) is calculated by adding length and width (e.g., a 25x60 window is 85 UI).</p>
+                            </li>
+                            <li id="under-75"><a href="#">
+                                75 UI or less <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="size-76-100"><a href="#">
+                                76 - 100 UI <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="size-101-125"><a href="#">
+                                101 - 125 UI <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- Window pricing -->
+                        <div class="third-list" id="price-75-and-less">
+                            <p>75 UI or less: $70</p>
+                        </div>
+                        <div class="third-list" id="price-76-to-100">
+                            <p>76 - 100 UI: $90</p>
+                        </div>
+                        <div class="third-list" id="price-101-125">
+                            <p>101 - 125 UI: $115</p>
+                        </div>
+                        <!-- Slider door -->
+                        <div class="third-list" id="price-slider-door">
+                            <p>Slider Door</p>
+                            <p>Up to $60 each</p>
+                        </div>
+                        <!-- Security door -->
+                        <div class="third-list" id="price-security-door">
+                            <p>Security Door</p>
+                            <p>Up to $250 each</p>
+                        </div>
+                        <!-- Crawl space -->
+                        <div class="third-list" id="price-crawl-space">
+                            <p>Crawl Space</p>
+                            <p>Up to $60 each</p>
+                        </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- Hazards content -->
+        <div class="content-container" id="hazards-content-container">
+            <div class="preservation-content">
+                <span class="close" id="close2">&times;</span>
+                <div class="options">
+                    <div class="wrapper">
+                        <ul class="menu-bar first-list">
+                            <li id="fridge-selection"><a href="#">
+                                Cleaning Refrigerator or Stand Alone Freezer <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="toilet-selection"><a href="#">
+                                Cleaning Toilet <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="wires-selection"><a href="#">
+                                Capping Wires <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="gas-water-selection"><a href="#">
+                                Capping Gas or Water <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="removing-gas-selection"><a href="#">
+                                Removing Gas Cans or Propane Tanks <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- Fridge pricing -->
+                        <div class="third-list" id="price-fridge">
+                            <p>Cleaning Refrigerator or Stand Alone Freezer</p>
+                            <p>The Fannie Mae allowable for cleaning includes the removal of all perishables from both the refrigerator and freezer in addition to a wipe down of the appliance’s interior and exterior. A separate allowable is provided for a stand alone freezer(s) to include removing all perishables and a wipe down of the appliance’s interior and exterior.</p>
+                            <p>Up to $100 each</p>
+                        </div>
+                        <!-- Toilet pricing-->
+                        <div class="third-list" id="price-toilet">
+                            <p>Cleaning Toilet or Bathroom</p>
+                            <p>The Fannie Mae allowable for cleaning should be used when fecal matter is present. This allowable also includes cleaning with a toilet brush, wiping down exterior, and winterizing, if in season.</p>
+                            <p>Up to $75 each</p>
+                        </div>
+                        <!-- Capping wire pricing -->
+                        <div class="third-list" id="price-wires">
+                            <p>Capping Wires</p>
+                            <p>Up to $10 each</p>
+                        </div>
+                        <!-- Capping gas/water -->
+                        <div class="third-list" id="price-gas-water">
+                            <p>Capping Gas or Water</p>
+                            <p>Bare wires and uncapped or open gas/water lines are required to be capped regardless of utility status.</p>
+                            <p>Up to $50 each</p>
+                        </div>
+                        <!-- Removing gas or propane -->
+                        <div class="third-list" id="price-gas-removal">
+                            <p>Removing Gas or Propane</p>
+                            <p>The Fannie Mae allowable for removal of gas can(s) or propane tank(s) does not include removing equipment that contains gas or propane (e.g., lawnmower, weed eater, grill, etc.).</p>
+                            <p>Up to $15 each</p>
+                        </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- Lawn content -->
+        <div class="content-container" id="lawn-content-container">
+            <div class="preservation-content">
+                <span class="close" id="close3">&times;</span>
+                <div class="options">
+                    <div class="wrapper">
+                        <ul class="menu-bar first-list">
+                            <li id="initial-lawn-cut-selection"><a href="#">
+                                Initial Lawn Cut <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="lawn-maintenance-selection"><a href="#">
+                                Regular Lawn Maintenance Cutting <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- Initial lawn size choices -->
+                        <ul class="menu-bar second-list" id="initial-lawn-choices">
+                            <li>Initial Lawn Cutting</li>
+                            <li>Initial grass cuts should be performed on lots up to 15,000 sq ft. If lot size is greater then 15,000 sq ft, initial full lot and subsequent cuts and initial perimeter and subsequent perimeter cuts should be submitted simultaneously. Perimeter is defined as 100x150 or 15,000 sq ft.</li>
+                            <li>Initial grass cuts should be made between April 1 and October 31 in the following states/territories:
+                                AR, CO, CT, DE, ID, IL, IN, IA, KS, KY, ME, MD, MA, MI, MN, MO, MT, NE, NH, NJ, NY, NC, ND, OH, OK, OR, PA, RI, SD, TN, UT, VT, VA, WA, WV, WI, WY,DC.</li>
+                            <li>Initial grass cuts may be completed during any month of the year in the following states/territories:
+                                AL, AZ, CA, FL, GA, HI, LA, MS, NM, NV, SC, TX, the Caribbean, and the Pacific Islands</li>
+                            <li>Initial grass cuts are allowed from June 1 to September 30 in the state of: AK</li>
+                                <li>One initial grass cut should be performed per calendar year.</li>
+                            <li id="initial-up-to-10k"><a href="#">
+                                Up to 10,000 square feet <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="initial-up-to-15k"><a href="#">
+                                Up to 15,000 square feet <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- Initial lawn cut pricing -->
+                        <div class="third-list" id="price-initial-10k">
+                            <p>Up to 10,000 square feet: up to $100</p>
+                        </div>
+                        <div class="third-list" id="price-initial-15k">
+                            <p>Up to 15,000 square feet: up to $150</p>
+                        </div>
+                        <!-- Regular lawn size choices -->
+                        <ul class="menu-bar second-list" id="regular-lawn-choices">
+                            <li></span>Regular Lawn Maintenance Cutting</li>
+                            <li>Incidental debris removal should be included as part of the allowable grass cut as well as edging, minimal leaf removal, and clearing of all grass cut clippings. The yard and its surroundings should be in model condition upon completion of the yard maintenance. Bids are required for shrub trimming when shrubs affect condition, access to the property, or where local ordinance dictates.</li>
+                            <li>Grass should typically be cut twice a month between April 1 and October 31. Approval is required if more frequent re-cuts are necessary. Re-cuts once a month may be sufficient depending on conditions.</li>
+                            <li id="regular-up-to-10k"><a href="#">
+                                Up to 10,000 square feet <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="regular-up-to-15k"><a href="#">
+                                Up to 15,000 square feet <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- Regular lawn cut pricing -->
+                        <div class="third-list" id="price-regular-10k">
+                            <p>Up to 10,000 square feet: up to $80</p>
+                        </div>
+                        <div class="third-list" id="price-regular-15k">
+                            <p>Up to 15,000 square feet: up to $100</p>
+                        </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div6>
+        <!-- Lock content -->
+        <div class="content-container" id="lock-content-container">
+            <div class="preservation-content">
+                <span class="close" id="close4">&times;</span>
+                <div class="options">
+                    <div class="wrapper">
+                        <ul class="menu-bar first-list">
+                            <li>Servicers are required to secure a rear or a secondary door for access on vacant properties, including the main dwelling and all outbuildings.</li>
+                            <li>Slider locks and window locks should be placed only if existing locks are inoperable or not present on the main level and where accessible.</li>
+                            <li id="knoblock-selection"><a href="#">
+                                Knoblock and Deadbolt <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="padlock-selection"><a href="#">
+                                Padlock and Hasp <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="slider-lock-selection"><a href="#">
+                                Slider Lock<i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="window-lock-selection"><a href="#">
+                                Window Lock <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- Knoblock pricing -->
+                        <div class="third-list" id="price-knoblock">
+                            <p>Knoblock and Deadbolt</p>
+                            <p>Up to $160 each</p>
+                        </div>
+                        <!-- Padlock pricing-->
+                        <div class="third-list" id="price-padlock">
+                            <p>Padlock</p>
+                            <p>Up to $40 each</p>
+                        </div>
+                        <!-- Slider lock pricing -->
+                        <div class="third-list" id="price-slider-lock">
+                            <p>Slider Lock</p>
+                            <p>Up to $35 each</p>
+                        </div>
+                        <!-- Window lock pricing -->
+                        <div class="third-list" id="price-window-lock">
+                            <p>Window Lock</p>
+                            <p>Up to $25 each</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- Roof Repair -->
+        <div class="content-container" id="roof-content-container">
+            <div class="preservation-content">
+                <span class="close" id="close5">&times;</span>
+                <div class="options">
+                    <div class="wrapper">
+                        <ul class="menu-bar first-list">
+                            <li>When an active leak is discovered appropriate measures should be taken to preserve the property by stopping the leak. Fannie Mae typically does not encourage replacing roofs prior to sale, but in cases where the servicer feels that this is necessary a first and second bid will be submitted to Fannie Mae for consideration.</li>
+                            <li>Do not tarp flat roofs.</li>
+                            <li id="roof-selection"><a href="#">
+                                Tarping or Patchwork <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- Roof pricing -->
+                        <div class="third-list" id="price-roof">
+                            <p>Fannie Mae requires that when roof repairs exceed allowable, a bid to tarp, except as noted above and a bid to patch must be submitted simultaneously on the same HomeTracker P&P form.
+                                Include: dimensions of affected area, location of damage, active or inactive leak, and amount of bid to complete work, full photo documentation, and advise Fannie Mae whether an insurance claim has been filed.</p>
+                            <p>Up to $400 for 10x20 square foot area</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- Swimming Pool -->
+        <div class="content-container" id="pool-content-container">
+            <div class="preservation-content">
+                <span class="close" id="close6">&times;</span>
+                <div class="options">
+                    <div class="wrapper">
+                        <ul class="menu-bar first-list">
+                            <li>Servicers are required to drain, secure, and tarp or board where required by local ordinance. The allowable may be used for meeting local ordinance and is not limited to the following: draining, securing, locking gates, and repairing gate/fence panels that surround the pool/hot tub. Securing is defined by Fannie Mae as the confirmation that all fences and gates are intact, secured, and a minimum of four feet high.</li>
+                            <li id="pool-selection"><a href="#">
+                                Secure Pool <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- Pool pricing -->
+                        <div class="third-list" id="price-pool">
+                            <p>Up to $400</p>
+                            <p>Requirements:</p>
+                            <ul>
+                                <li>Servicers must verify local ordinance and association standards regarding pools, draining, treatment, and water levels. All trash located within the pool must be removed.</li>
+                                <li>If the pool is already covered and the cover is secure, Servicers must verify if additional fencing or securing is required by local ordinance or association.</li>
+                                <li>All gates and doors leading to pool access must be secured by lock or padlock.</li>
+                                <li>All missing sections of gates or fencing surrounding pool must be replaced.</li>
+                                <li>Spas/Hot Tubs must be secured to local code.</li>
+                                <li>Above ground pools shall be treated the same as in-ground pools and follow same
+                                    guidelines.</li>
+                            </ul>
+                            <p>If a violation has been posted a copy of that document is required by Fannie Mae when considering any bid to secure/treat the pool or pool area.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- Winterization -->
+        <div class="content-container" id="winter-content-container">
+            <div class="preservation-content">
+                <span class="close" id="close7">&times;</span>
+                <div class="options">
+                    <div class="wrapper">
+                        <ul class="menu-bar first-list">
+                            <li>Winterization</li>
+                            <li>Generally, all properties should be winterized between October 1 and March 31.</li>
+                            <li>
+                                Winterizations are allowed during any month of the year in the following states: AK, CT, IA, IL, IN, MA, ME, MI, MN, MT, ND, NE, NH, NY, OH, PA, RI, SD, VT, WI</li>
+                            <li>
+                                Properties should be winterized only once. The property may be re-winterized only if the initial winterization is deemed to be no longer effective. The Servicer must submit bids to Fannie Mae for winterization prior to the work being done. Winterizations should include shutting off the water source either at the curb or the main interior water supply if it is not possible to shut it off at the curb. Winterization also includes a complete draining of all plumbing and heating systems. For properties where water services and utilities are shared with other units, such as condominiums, the utilities should be maintained. The water service should also be maintained if needed for wet winterizations.</li>
+                            <li id="snow-selection"><a href="#">
+                                Snow Removal <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="winterization-selection"><a href="#">
+                                Winterization or De-Winterization <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- snow pricing -->
+                        <div class="third-list" id="price-snow">
+                            <p>Snow Removal</p>
+                            <p>Up to $75 one time only if needed to secure property</p>
+                        </div>
+                        <!-- winterization pricing-->
+                        <div class="third-list" id="price-winterization">
+                            <p>Property Winterization</p>
+                            <p>Up to $200 for first unit and up to $80 per each additional unit</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- Other content -->
+        <div class="content-container" id="other-content-container">
+            <div class="preservation-content">
+                <span class="close" id="close8">&times;</span>
+                <div class="options">
+                    <div class="wrapper">
+                        <ul class="menu-bar first-list">
+                            <li id="emergency-selection"><a href="#">
+                                Emergency Funds <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="sump-pump-selection"><a href="#">
+                                Sump Pump <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="utility-selection"><a href="#">
+                                Utilities <i class="fas fa-angle-right"></i>
+                            </a></li>
+                            <li id="vacancy-selection"><a href="#">
+                                Vacant Property Registration (VPR) <i class="fas fa-angle-right"></i>
+                            </a></li>
+                        </ul>
+                        <!-- Emergency pricing -->
+                        <div class="third-list" id="price-emergency">
+                            <p>Emergency Repairs</p>
+                            <p>The most important element to defining an emergency is that an immediate response is necessary to prevent damage or lessen the loss of property. Gradual and progressive deterioration or lack of property maintenance does not qualify as an emergency.</p>
+                            <p>Up to $500</p>
+                        </div>
+                        <!-- Sump pump pricing-->
+                        <div class="third-list" id="price-sump-pump">
+                            <p>Sump Pump</p>
+                            <p>If an existing sump pump is used to keep basements or crawl spaces dry, check the sump pump to make sure it is operational. If the sump pump in question is electrical, ensure that the sump pump is plugged into a power source and the electricity to the property is turned on and if necessary, transfer the electricity into the servicer's name. If the sump pump is inoperable, the servicer may use the allowable to replace the pump.</p>
+                            <p>Up to $300</p>
+                        </div>
+                        <!-- Utilities pricing -->
+                        <div class="third-list" id="price-utility">
+                            <p>Utilities</p>
+                            <p>For water, gas, electric, or other </p>
+                            <p>If required for preservation, the Servicer must transfer utilities into their name during pre-foreclosure proceedings.</p>
+                            <p>Up to $75 for one time shut off/transfer fee of each</p>
+                        </div>
+                        <!-- Vacancy pricing -->
+                        <div class="third-list" id="price-vacancy">
+                            <p>Vacant Property Registration</p>
+                            <p>If local ordinance requires a vacant property to be registered, servicers should follow requirements. Reimbursement will be provided only for the registration fee.</p>
+                            <p>Actual cost to register per local requirement</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <p class="foot">Leanne Roddy Consulting &#174;</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
